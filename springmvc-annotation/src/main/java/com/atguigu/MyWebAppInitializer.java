@@ -13,6 +13,7 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
 		return new Class<?>[]{RootConfig.class};
+		
 	}
 
 	//获取web容器的配置类（SpringMVC配置文件）  子容器；
