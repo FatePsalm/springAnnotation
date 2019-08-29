@@ -1,0 +1,14 @@
+#rocketmq配置信息
+rocketmq:
+  accessKey: LTAIo43GyE4mJKcu
+  secretKey: yWPsjXn3k3xRD6vQCgUgpGuKMbpoZT
+  nameSrvAddr: http://MQ_INST_1132362586011249_BaWmCLSI.mq-internet-access.mq-internet.aliyuncs.com:80
+#  nameSrvAddr: http://MQ_INST_1132362586011249_BaWvhy7o.cn-qingdao.mq-internal.aliyuncs.com:8080
+  topic: TOPIC-TRANSACTION
+  groupId: GID_TEST_CAOGANG
+  tag: tagSpellSong
+#  orderTopic:
+#  orderGroupId:
+#  orderTag: *
+server:
+  port: 8099
